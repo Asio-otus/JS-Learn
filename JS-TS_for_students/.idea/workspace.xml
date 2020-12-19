@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72be0e4-cb88-41a2-b90b-5395da37084c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02-objects/02.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02-objects/02.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02-objects/02_01.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04-filter/04.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04-filter/04.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01-hello-tests/01.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/01-hello-tests/01.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +33,31 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="E:\my-projects\web\react\Incubator\JS-Learn\JS-TS_for_students\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.01.test.ts">
+    <configuration name="01.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/02-objects/02.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="sum should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -52,6 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.01.test.ts" />
+        <item itemvalue="Jest.02.test.ts" />
         <item itemvalue="Jest.sum should be correct" />
       </list>
     </recent_temporary>
@@ -68,7 +91,8 @@
       <workItem from="1608363376386" duration="4178000" />
       <workItem from="1608367609456" duration="34000" />
       <workItem from="1608367658965" duration="85000" />
-      <workItem from="1608367759534" duration="120000" />
+      <workItem from="1608367759534" duration="1464000" />
+      <workItem from="1608385032023" duration="8732000" />
     </task>
     <servers />
   </component>
