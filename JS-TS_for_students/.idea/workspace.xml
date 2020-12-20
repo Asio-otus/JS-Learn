@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72be0e4-cb88-41a2-b90b-5395da37084c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/02-objects/02.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02-objects/02.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02-objects/02_01.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04-filter/04.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04-filter/04.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +86,8 @@
       <workItem from="1608367609456" duration="34000" />
       <workItem from="1608367658965" duration="85000" />
       <workItem from="1608367759534" duration="1464000" />
-      <workItem from="1608385032023" duration="8732000" />
+      <workItem from="1608385032023" duration="8789000" />
+      <workItem from="1608456777187" duration="2163000" />
     </task>
     <servers />
   </component>
