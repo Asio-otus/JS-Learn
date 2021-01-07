@@ -24,7 +24,7 @@ type StudentType = {
 }
 
 // Student Obj
-const student: StudentType = {
+export const student: StudentType = {
     id: 1,
     name: 'Dimych',
     age: 32,
