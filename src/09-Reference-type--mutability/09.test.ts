@@ -1,3 +1,5 @@
+import {userType} from "./9";
+
 test('reference type test', () => {
 
     let user: userType = {
