@@ -56,6 +56,23 @@ let findUserInDB = (id) => {
         }, randomIntFromInterval(500, 1500))
     })
 }
+let findUserInDBWithError = (id) => {
+    const users = [
+        {id: 1, name: 'Dimych', friend: 4},
+        {id: 2, name: 'Sveta', friend: null},
+        {id: 3, name: 'Valera', friend: 2}
+    ]
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            let user = users.find(u => u.id === id)
+            if (user == null) {
+                rej('user not found')
+            } else {
+                res(user)
+            }
+        }, randomIntFromInterval(500, 1500))
+    })
+}
 
 function randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min)
