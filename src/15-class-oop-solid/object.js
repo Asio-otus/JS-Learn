@@ -24,7 +24,7 @@ const userFabric = (name) => {
         name: name,
         site: 'it-incubator.by',
         dateOfBirth: new Date(1988, 1, 2),
-        hello: hello
+        hello: commonHello
     }
 }
 
