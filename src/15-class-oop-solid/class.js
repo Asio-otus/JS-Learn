@@ -14,27 +14,27 @@ console.log(action4)
 
 // Another example
 class User {
-    #name = '' // Private
+    _name = '' // Private
 
     constructor(name, site, dob) {
-        this.#name = name
+        this._name = name
         this.site = site
         this.dateOfBirth = dob
         this.counter = 0
     }
     // Getter
     get name() {
-        return this.#name
+        return this._name
     }
     // Setter
     set name(value) {
-        this.#name = value
+        this._name = value
     }
 
     hello() {
         this.counter++
         console.log(this.counter)
-        console.log(`I am ${this.#name} from ${this.site}`)
+        console.log(`I am ${this._name} from ${this.site}`)
     }
 }
 
@@ -55,7 +55,7 @@ class Coder extends User{
     }
 
     code() {
-        console.log(`I am ${this.name}, here is my ${this.tech} code: const sum = (a, b) => a + b`)
+        console.log(`I am ${this._name}, here is my ${this.tech} code: const sum = (a, b) => a + b`)
     }
 
     hello() {
@@ -67,3 +67,26 @@ class Coder extends User{
 const coder1 = new Coder('Dimych coder', 'it-incubator.by', new Date(1988, 1, 2), 'Java Script')
 coder1.hello()
 coder1.code()
+
+class Hacker extends Coder {
+    constructor(a, b, c, d) {
+        super();
+        this.tech = 'xxx'
+        this._name = 'xxx'
+        this.site = 'xxx'
+    }
+    code() {
+        console.log(`I'll hack everything`)
+    }
+    // hello() {
+    //     throw new Error('I am Hacker')
+    // }
+}
+
+const hacker = new Hacker('Dimych coder', 'it-incubator.by', new Date(1988, 1, 2), 'Java Script')
+hacker.hello()
+hacker.code()
+
+let users2 = [u1, u2, coder1, hacker]
+
+users2.forEach(u => u.hello())
